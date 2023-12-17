@@ -1,0 +1,83 @@
+/* Merging the existing CSS with Chakra UI-inspired styling */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #319795;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+footer {
+    background-color: #319795;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #E2E8F0;
+    border-radius: 10px;
+    background-color: #F7FAFC;
+    transition: background-color 0.3s ease;
+}
+
+section:hover {
+    background-color: #EBF4FF;
+}
+
+section h2 {
+    color: #2D3748;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+/* Additional styling for the navigation bar */
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #319795;
+    padding: 0.5em;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #F7FAFC;
+}
+
+/* Retain styles for the new sections */
+#personalized-learning,
+#coding-assistant,
+#projects,
+#gamification {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+#personalized-learning h2,
+#coding-assistant h2,
+#projects h2,
+#gamification h2 {
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
